@@ -38,10 +38,16 @@
       </nav>
 </head>
 <body>
-    <div class="container">
+    <div class="container" style="background-color:#f5f3f3">
         <div class="row">
-          <div class="col">
-            <p>This analysis was done using data taken from the OpenWeatherMap API. Random number pairs for latitude and longitude were generated using NumPy. These pairs were used to determine more than 600 different cities in the OpenWeatherMap data using the citipy tool from Winston Chen.</p>
+          <div class="col"  style ="font-size:18px">
+            <h1><center>Analysis</center></h1> </br>
+            <h3>Correlation Table, Northern Hemisphere</h3>
+            <center><img src="Visualizations/NH_Correlations.PNG"></center></br>
+            <p>There is a strong correlation between the maximum forecasted temperature and degrees latitude of a given city. This relationship was stronger for the northern hemisphere than the Southern Hemisphere. This correlation makes sense. Cities near the equator experience more solar exposure and more consistent heating through out the year. As latitude increases, cities experience more dynamic changes in solar exposure and heating through out the year. These higher latitude areas receive less solar energy overall.</p>
+            <center><img src="Visualizations/NH_Max Temperature (F)vslat.png"></center></br>
+            <p>There is a moderate negative correlation between maximum forecasted temperature and humidity. This makes sense when you consider inland plains and desert regions. These areas are dry with low humidity, but have high daytime temperatures. This relationship breaks down in coastal areas and other wet regions. These areas become humid with high temperatures due to increases in evaporation from bodies of water, and evapotranspiration of vegetation. </p>
+            <center><img src="Visualizations/HumidityMap.png"></center></br>
           </div>
         </div>
       </div>
