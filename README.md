@@ -5,7 +5,7 @@ The goal of this was to successfully deploy a website using bootstrap. Weather a
 
 Bootstap provides prefabricated html modules that can be combined into a beautiful webpage.
 
-![Landing Page](https://github.com/bakerv/Web-Design-Challenge/blob/main/WebVisualizations/Visualizations/Deployment.PNG)
+[<img src="https://github.com/bakerv/Web-Design-Challenge/blob/main/WebVisualizations/Visualizations/Deployment.PNG">](https://bakerv.github.io/API-Challenge/index.html)
 
 The website has an inviting landing page to capture user attention. Data, visualizations, and analysis are linked on separate pages.
 
